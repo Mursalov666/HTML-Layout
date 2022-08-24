@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    background-color: #fff;
+}
+
+.header-left a{
+    text-decoration: none;
+    color: #929292;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: #929292;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.header-top h1{
+    font-size: 50px;
+    margin: auto;
+    margin-right: 70px;
+    color: #212529;
+}
+
+#Hobby{
+    padding: 15rem 18rem;
+    margin-bottom: 10px;
+}
+
+.h-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-left{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h-left h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.h-left p{
+    font-size: 25px;
+    color: #999999;
+}
+
+.h-right{
+    width: 45%;
+}
+
+.h-right img{
+    width: 100%;
+}
+
+#All{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    background-color: #fff;
+}
+
+.a-left a{
+    text-decoration: none;
+    color: #929292;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#Products{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 23%;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.b-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.box .bottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.box h4{
+    padding-left: 55px;
+    font-size: 20px;
+}
+
+#Custom{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#Custom .box .top h4{
+    text-align: center;
+    padding-left: 20px;
+    color: #080808;
+}
+
+#Custom .box .bottom p{
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 15px;
+    color: #929292;
+}
+
+#Footer{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Footer .f-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-right a{
+    color: #080808;
+    padding-right: 20px;
+}
+
+.f-right h5{
+    color: #929292;
+    padding-right: 40px;
+}
+
+.f-left h5{
+    color: #929292;
+    padding-left: 70px;
+}
